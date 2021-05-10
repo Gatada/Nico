@@ -1,0 +1,251 @@
+html { 
+	  background: url(back.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  
+	  font-family: sans-serif;
+	  -ms-text-size-adjust: 100%;
+	  -webkit-text-size-adjust:100%;
+	  font: 112.5%/1.45em sans-serif;
+	  box-sizing: border-box;
+	  overflow-y:scroll;
+}
+	
+body{
+	background:transparent;
+	font-family: Georgia, serif;
+	margin-bottom: 100px;
+}
+
+
+#heading{
+	margin-bottom: 10px;
+}
+
+#navigationbar {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	top: 0px;
+}
+
+#logout {
+	text-align: center;
+	padding: 5px;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	position: absolute;
+	color: #880000;
+	border-color: #b7b7b7;
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 8px;
+}
+
+#brandTitle {
+	display: inline;
+}
+
+#brandTitle:hover {
+	color: green;
+}
+
+#logout:hover {
+	background-color: #fdafaf;
+}
+
+#header{
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 370px;
+	padding: 20px;
+
+}
+
+.story, .preview {
+	padding: 0 20px;
+}
+
+.story div, .preview div {
+	max-width: 800px;
+	background-color: white;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	color: #1e1e43;
+	text-align: left;
+}
+
+#ingress div {
+	background-color: #e7f6ff;
+	margin-top: 80px;
+}
+
+#signed {
+}
+
+.timestamp {
+	display: block;
+	text-align: right;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: lightgray;
+}
+
+#ingress div .timestamp {
+	color: #1E1E43;
+}
+
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+
+	text-decoration: none;
+	color: green;
+}
+
+.newTag, .entities {
+	padding: 3px 6px;
+	border-radius: 5px;
+	background-color: #FFFFFF30;
+	border: 0.5px solid #00000040;
+	white-space: nowrap;
+	font-family: monospace;
+	font-size: 0.8em;
+}
+
+.entities {
+	white-space: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.entities .emoji {
+	white-space: nowrap;
+}
+
+#message{
+	text-align: center;
+	margin: auto;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+
+#message > div {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#message > div > p {
+	padding: 0 10px;
+}
+
+textarea {
+	width: 100%;
+	max-width: 800px;
+	min-height: 40vh;
+    border-radius: 8px;
+    border: 2px solid #00000040;
+	padding: 20px;
+	color: black;
+}
+
+#toolbar {
+	padding: 10px 20px 0 20px;
+}
+
+#preview {
+	padding: 0;
+	margin: 0;
+}
+
+#preview > .preview {
+	margin: 0 0 90px 0;
+	padding: 0;
+}
+
+#publishedStories {
+	max-width: 840px;
+	margin: auto;
+}
+
+#publishedStories a {
+	margin-left: 20px;
+	padding: 10px 15px;
+	color: black;
+	background-color: #FFFFFF42;
+	border-style: none;
+	border-radius: 8px;
+}
+
+#publishedStories a:hover {
+	background-color: white;
+}
+
+
+form{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form-control{
+
+	width: 100%;
+	margin: auto;	
+
+}
+
+.form-group p {
+	margin-top: 20px;
+}
+
+.navRight {
+	padding: 5px;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	position: absolute;
+}
+
+#logIn{
+	display: none;
+}
+
+#loginInstead {
+	margin-top: 40px;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #FFFFFF81;
+}
+
+#clickLogIn, #clickSignup {
+	font-weight: bold;
+}
+
+#clickLogIn:hover, #clickSignup:hover {
+	color: white;
+}
+
+#error{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+	margin-bottom: 20px;
+}
+
+#forgetpassword{
+
+	display: none;
+}
+

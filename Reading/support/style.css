@@ -1,0 +1,296 @@
+html { 
+  background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust:100%;
+  font: 112.5%/1.45em sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body{
+	
+	background:transparent;
+	font-family: Georgia, serif;
+	margin-bottom: 50px;
+
+}
+
+
+#heading{
+
+	margin-bottom: 10px;
+
+}
+
+#navigationbar {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	top: 0px;
+}
+
+#logout {
+	text-align: center;
+	padding: 5px;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	position: absolute;
+	color: color(srgb 0.534 0 0);
+	border-color: color(srgb 0.719 0.719 0.719);
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 8px;
+}
+
+#brandTitle {
+	display: inline;
+}
+
+#logout:hover {
+	background-color: color(srgb 0.994 0.688 0.688);
+}
+
+#header{
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 370px;
+	padding: 20px;
+
+}
+
+.story, .preview {
+	padding: 0 20px;
+}
+
+.story div, .preview div {
+	max-width: 800px;
+	background-color: white;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	color: color(srgb 0.118 0.118 0.265);
+	text-align: left;
+}
+
+#ingress div {
+	background-color: #e7f6ff;
+	margin-top: 80px;
+}
+
+#signed {
+}
+
+.timestamp {
+	display: block;
+	text-align: right;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: lightgray;
+}
+
+#ingress div .timestamp {
+	color: color(srgb 0.118 0.118 0.265);
+}
+
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover{
+
+	text-decoration: none;
+	color: green;
+}
+
+#newTag {
+	padding: 3px 10px;
+	border-radius: 8px;
+	background-color: color(srgb 1 1 1 / 0.298);
+	border: 0.5px solid color(srgb 0 0 0 / 0.4);
+}
+
+#message{
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+textarea {
+	width: 100%;
+	max-width: 800px;
+	min-height: 20vh;
+    border-radius: 8px;
+    border: 2px solid color(srgb 0 0 0 / 0.4);
+	padding: 20px;
+	color: color(srgb 0 0 0);
+}
+
+#toolbar {
+	padding: 10px 20px 20px 20px;
+}
+
+#preview {
+	padding: 0;
+	margin: 0;
+}
+
+#publishedStories {
+	max-width: 840px;
+	margin: auto;
+}
+
+#publishedStories a {
+	margin-left: 20px;
+	padding: 10px 15px;
+	color: black;
+	background-color: color(srgb 1 1 1 / 0.419);;
+	border-style: none;
+	border-radius: 8px;
+}
+
+#publishedStories a:hover {
+	background-color: white;
+}
+
+
+form{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form-control{
+
+	width: 100%;
+	margin: auto;	
+
+}
+
+.form-group p {
+	margin-top: 20px;
+}
+
+.navRight {
+	padding: 5px;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	position: absolute;
+}
+
+#logIn{
+	display: none;
+}
+
+#loginInstead {
+	margin-top: 40px;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: color(srgb 1 1 1 / 0.813);
+}
+
+#clickLogIn {
+	font-weight: bold;
+}
+
+#error{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+	margin-bottom: 20px;
+}
+
+#forgetpassword{
+
+	display: none;
+}
+
+
+
+/* ADMIN LOGIN AND PANEL
+-------------------------------------------------------------- */
+
+#admin {
+	white-space: nowrap;
+	min-width: 375px;
+	height: 100px;
+}
+
+#admin > div {
+	background-color: #ffebeb;
+	color: #5d0000;
+	height: 100%;
+}
+
+#admin > div > .column {
+	font-family: verdana;
+	color: #990000;
+	background-color: transparent;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	border-radius: 0;
+	float: left;
+}
+
+#admin > div > .column em {
+	font-size: 3em;
+	padding: 0;
+	line-height: 0.9em;
+	font-style: normal;
+}
+
+#admin .divider {
+	background-color: #99000050;
+	width: 1px;
+	margin: 0px 2%;
+	padding: 0px;
+	height: 100%;
+	border-radius: 0;
+	float: left;
+}
+
+#adminform {
+	margin:;
+}
+
+#adminform div {	
+	margin: 0 auto;
+}
+
+#adminform input {
+	margin: 20px 0;
+}
+
+#adminform div > button {
+}
+
+#adminform button {
+	width: 100%;
+}
+
+#adminform h1 {
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+#adminform form-group {
+	padding: 0;
+}

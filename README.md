@@ -9,6 +9,6 @@ To setup this service on your web server you need to:
  1. Setup a database and run ``mySQL.sql`` on your MySQL server to create the required data structure.
  2. Specify the login details for the database in the config.php file (and customise the other parts of it as needed).
  
- That should be it!
+ I'm sure I've forgotten something, but I think that should be it.
  
  
